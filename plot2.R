@@ -1,6 +1,6 @@
 # read data files
-# pm2data <- readRDS("./data/summarySCC_PM25.rds")
-# codes <- readRDS("./data/Source_Classification_Code.rds")
+pm2data <- readRDS("./data/summarySCC_PM25.rds")
+codes <- readRDS("./data/Source_Classification_Code.rds")
 
 baltimoreCityEmission <- subset(pm2data, fips == "24510")
 
